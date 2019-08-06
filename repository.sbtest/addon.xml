@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.sbtest" name="SB_Test_Repo" version="0.0.1" provider-name="Supreme Builds">
-    <extension point="xbmc.addon.repository" name="SB_Test_Repo">
+<addon id="repository.sbtest" name="SB Test Repo" version="0.0.2" provider-name="Supreme Builds">
+    <extension point="xbmc.addon.repository" name="SB Test Repo">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/kodiskills/SB_Test_Repo/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/kodiskills/SB_Test_Repo/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/kodiskills/SB_Test_Repo/master/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/kodiskills/repository.sbtest/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/kodiskills/repository.sbtest/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/kodiskills/repository.sbtest/master/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>SB_Test_Repo</summary>
+        <summary>SB Test Repo</summary>
         <description>This repo is used for testing purposes and tutorials only</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
