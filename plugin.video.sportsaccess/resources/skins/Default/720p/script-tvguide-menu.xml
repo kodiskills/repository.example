@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window type="dialog">
+	<allowoverlay>no</allowoverlay>
+	<defaultcontrol always="false">4000</defaultcontrol>
+	<coordinates>
+		<system>1</system>
+		<posx>0</posx>
+		<posy>0</posy>
+	</coordinates>
+
+    <controls>
+
+        <control type="image">
+            <posx>150</posx>
+            <posy>100</posy>
+            <width>1010</width>
+            <height>510</height>
+            <texture>menu.png</texture>
+        </control>
+        <control type="image">
+            <posx>150</posx>
+            <posy>100</posy>
+            <width>1010</width>
+            <height>510</height>
+            <texture>menu.png</texture>
+        </control>
+		
+		<control type="label">
+            <description> </description>
+            <posx>423</posx>
+            <posy>120</posy>
+            <width>180</width>
+            <height>50</height>
+            <textcolor>ffffffff</textcolor>
+            <font>font13</font>
+			<align>left</align>
+            <aligny>top</aligny>
+			<label> </label>
+        </control>
+		
+		<control type="label" id="4900">
+            <description> </description>
+            <posx>423</posx>
+            <posy>150</posy>
+            <width>710</width>
+            <height>400</height>
+            <textcolor>ffffffff</textcolor>
+            <font>font13</font>
+			<align>justify</align>
+            <aligny>top</aligny>
+			<wrapmultiline>true</wrapmultiline>
+			<autoscroll time="3600" delay="6000" repeat="6000">true</autoscroll>
+			<label>[B][COLOR red]SportsAccess.se[/COLOR][/B]</label>
+        </control>
+			
+        <control type="image" id="4100">
+            <posx>160</posx>
+            <posy>100</posy>
+            <width>240</width>
+            <height>80</height>
+            <aspectratio>keep</aspectratio>
+			<visible>true</visible>
+        </control>
+        <control type="label" id="4101">
+            <posx>160</posx>
+            <posy>100</posy>
+            <width>240</width>
+            <height>50</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+        </control>
+
+        <control type="button" id="4000"><!-- Watch Stream -->
+            <posx>160</posx>
+            <posy>228</posy>
+            <width>240</width>
+            <height>50</height>
+            <texturefocus>menu-grey-focus.png</texturefocus>
+            <texturenofocus>menu-grey.png</texturenofocus>
+            <onup>4005</onup>
+            <ondown>4001</ondown>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <visible>false</visible>
+        </control>
+
+        <control type="button" id="4001"><!-- Choose Stream -->
+            <posx>160</posx>
+            <posy>280</posy>
+            <width>240</width>
+            <height>50</height>
+            <texturefocus>menu-grey-focus.png</texturefocus>
+            <texturenofocus>menu-grey.png</texturenofocus>
+            <onup>4000</onup>
+            <ondown>4002</ondown>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <label>$ADDON[plugin.video.sportsaccess 30304]</label>
+            <visible>false</visible>
+        </control>
+        <control type="label"><!-- Choose Stream Text -->
+            <posx>20</posx>
+            <posy>260</posy>
+            <width>240</width>
+            <height>200</height>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <label>$ADDON[plugin.video.sportsaccess 30305]</label>
+            <wrapmultiline>true</wrapmultiline>
+			<visible>false</visible>
+        </control>
+
+        <control type="label" id="4102"><!-- Show Title -->
+            <posx>20</posx>
+            <posy>420</posy>
+            <width>240</width>
+            <height>50</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+			<visible>false</visible>
+        </control>
+
+        <control type="button" id="4500"><!-- Scoreboard -->
+            <posx>160</posx>
+            <posy>280</posy>
+            <width>240</width>
+            <height>50</height>
+            <texturefocus>menu-grey-focus.png</texturefocus>
+            <texturenofocus>menu-grey.png</texturenofocus>
+            <onup>4003</onup>
+            <ondown>4006</ondown>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+			<label>Scoreboard</label>
+        </control>
+
+        <control type="button" id="4006"><!-- Search -->
+            <posx>160</posx>
+            <posy>332</posy>
+            <width>240</width>
+            <height>50</height>
+            <texturefocus>menu-grey-focus.png</texturefocus>
+            <texturenofocus>menu-grey.png</texturenofocus>
+            <onup>4500</onup>
+            <ondown>4002</ondown>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <label>Search</label>
+        </control>
+
+        <control type="button" id="4002"><!-- REMINDER -->
+            <posx>160</posx>
+            <posy>384</posy>
+            <width>240</width>
+            <height>50</height>
+            <texturefocus>menu-grey-focus.png</texturefocus>
+            <texturenofocus>menu-grey.png</texturenofocus>
+            <onup>4006</onup>
+            <ondown>4003</ondown>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+        </control>
+        <control type="button" id="4003"><!-- CHANNELS -->
+            <posx>160</posx>
+            <posy>436</posy>
+            <width>240</width>
+            <height>50</height>
+            <texturefocus>menu-grey-focus.png</texturefocus>
+            <texturenofocus>menu-grey.png</texturenofocus>
+            <onup>4002</onup>
+            <ondown>4500</ondown>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <label>$ADDON[plugin.video.sportsaccess 30307]</label>
+        </control>
+
+        <control type="button" id="4005"><!-- watch from beginning -->
+            <posx>160</posx>
+            <posy>178</posy>
+            <width>240</width>
+            <height>50</height>
+            <texturefocus>menu-grey-focus.png</texturefocus>
+            <texturenofocus>menu-grey.png</texturenofocus>
+            <onup>8002</onup>
+            <ondown>4000</ondown>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <label>Watch from beginning</label>
+            <visible>false</visible>
+        </control>
+
+        <control type="button" id="80001"><!-- MY TV SHOWS -->
+            <posx>160</posx>
+            <posy>488</posy>
+            <width>240</width>
+            <height>50</height>
+            <texturefocus>menu-grey-focus.png</texturefocus>
+            <texturenofocus>menu-grey.png</texturenofocus>
+            <onup>80000</onup>
+            <ondown>80002</ondown>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+			<label>$ADDON[plugin.video.sportsaccess 80001]</label>
+            <visible>false</visible>
+        </control>
+		
+		<control type="button" id="80002"><!-- VIDEO ADDONS -->
+            <posx>160</posx>
+            <posy>540</posy>
+            <width>240</width>
+            <height>50</height>
+            <texturefocus>menu-grey-focus.png</texturefocus>
+            <texturenofocus>menu-grey.png</texturenofocus>
+            <onup>80001</onup>
+            <ondown>4001</ondown>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+			<label>$ADDON[plugin.video.sportsaccess 80002]</label>
+            <visible>false</visible>
+        </control>
+
+        <control type="button" id="4004"><!-- QUIT -->
+            <posx>20</posx>
+            <posy>650</posy>
+            <width>240</width>
+            <height>50</height>
+            <texturefocus>menu-grey-focus.png</texturefocus>
+            <texturenofocus>menu-grey.png</texturenofocus>
+            <onup>4003</onup>
+            <ondown>80000</ondown>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <label>$ADDON[plugin.video.sportsaccess 30308]</label>
+			<visible>false</visible>
+        </control>
+		
+		
+
+    </controls>
+</window>

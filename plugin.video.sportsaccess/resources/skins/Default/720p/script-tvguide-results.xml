@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window type="dialog">
+    <allowoverlay>no</allowoverlay>
+    <defaultcontrol always="true">6000</defaultcontrol>
+    <coordinates>
+        <system>1</system>
+        <posx>0</posx>
+        <posy>0</posy>
+    </coordinates>
+    <controls>
+        <control type="label" id="6001">
+            <description>visibility marker for selection box</description>
+        </control>
+
+
+        <control type="image">
+            <posx>150</posx>
+            <posy>100</posy>
+            <width>1010</width>
+            <height>510</height>
+            <texture>menu-stream.png</texture>
+        </control>
+        <control type="image">
+            <posx>150</posx>
+            <posy>100</posy>
+            <width>1010</width>
+            <height>510</height>
+            <texture>menu-stream.png</texture>
+        </control>
+
+        <control type="label">
+            <posx>190</posx>
+            <posy>112</posy>
+            <width>520</width>
+            <height>40</height>
+            <align>left</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <label>[B]Search Results[/B]</label>
+        </control>
+
+        <control type="list" id="6000">
+            <posx>190</posx>
+            <posy>180</posy>
+            <width>925</width>
+            <height>350</height>
+            <viewtype label="list">list</viewtype>
+            <orientation>vertical</orientation>
+            <focusposition>7</focusposition>
+            <onleft>6004</onleft>
+            <onright>6004</onright>
+
+            <itemlayout width="560" height="40">
+                <control type="image">
+                    <posx>0</posx>
+                    <posy>0</posy>
+                    <width>1000</width>
+                    <height>38</height>
+                    <texture>menu-grey.png</texture>
+                </control>
+                <control type="label">
+                    <posx>25</posx>
+                    <posy>0</posy>
+                    <width>1000</width>
+                    <height>38</height>
+                    <aligny>center</aligny>
+                    <font>font11</font>
+                    <textcolor>ffffffff</textcolor>
+                    <info>ListItem.Label</info>
+                </control>
+            </itemlayout>
+            <focusedlayout width="560" height="40">
+                <control type="image">
+                    <posx>0</posx>
+                    <posy>0</posy>
+                    <width>1000</width>
+                    <height>38</height>
+                    <texture>menu-grey.png</texture>
+                    <visible>!Control.HasFocus(6000)</visible>
+                </control>
+                <control type="image">
+                    <posx>0</posx>
+                    <posy>0</posy>
+                    <width>1000</width>
+                    <height>38</height>
+                    <texture>menu-grey-focus.png</texture>
+                    <visible>Control.HasFocus(6000)</visible>
+                </control>
+                <control type="label">
+                    <posx>25</posx>
+                    <posy>0</posy>
+                    <width>1000</width>
+                    <height>38</height>
+                    <aligny>center</aligny>
+                    <font>font11</font>
+                    <textcolor>ffffffff</textcolor>
+                    <info>ListItem.Label</info>
+                </control>
+                <control type="image">
+                    <posx>5</posx>
+                    <posy>9</posy>
+                    <width>20</width>
+                    <height>20</height>
+                    <texture>tvguide-bullet.png</texture>
+                </control>
+            </focusedlayout>
+        </control>
+
+        <control type="button" id="6004">
+            <posx>937</posx>
+            <posy>550</posy>
+            <width>200</width>
+            <height>40</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <label>Close</label>
+            <texturefocus>menu-grey-focus.png</texturefocus>
+            <texturenofocus>menu-grey.png</texturenofocus>
+            <onleft>6003</onleft>
+            <onright>6000</onright>
+            <onup>6000</onup>
+        </control>
+
+    </controls>
+</window>

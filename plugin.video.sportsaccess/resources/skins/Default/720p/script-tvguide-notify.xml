@@ -1,0 +1,105 @@
+<window id="1100" type="dialog">
+  <defaultcontrol always="true">1</defaultcontrol>
+  <coordinates>
+    <left>240</left>
+    <top>160</top>
+  </coordinates>
+  <controls>
+      <control type="image">
+        <posx>0</posx>
+        <posy>0</posy>
+        <width>800</width>
+        <height>400</height>
+        <texture>notify-popup.png</texture>
+      </control>
+      <control type="image">
+        <description>Guide logo</description>
+        <posx>280</posx>
+        <posy>-7</posy>
+        <width>240</width>
+        <height>70</height>
+        <aspectratio>keep</aspectratio>
+        <fadetime>500</fadetime>
+        <texture>tvguide-logo.png</texture>
+      </control>
+
+      <control type="label"><!-- Reminder -->
+        <posx>40</posx>
+        <posy>60</posy>
+        <width max="720">auto</width>
+        <height>50</height>
+        <font>font13</font>
+        <textcolor>ffffffff</textcolor>
+        <label>The event you reserved is about to start:</label>
+      </control>
+      <control type="label" id="1000"><!-- Show title -->
+        <posx>40</posx>
+        <posy>120</posy>
+        <width max="720">auto</width>
+        <wrapmultiline>false</wrapmultiline>
+        <font>font13</font>
+        <textcolor>ffffffff</textcolor>
+        <label></label>
+      </control>
+      <control type="label"><!-- Reminder -->
+        <posx>40</posx>
+        <posy>200</posy>
+        <width max="300">auto</width>
+        <height>50</height>
+        <font>font13</font>
+        <textcolor>ffffffff</textcolor>
+        <label>Start watching now?</label>
+      </control>
+
+      <control type="progress" id="2000">
+        <posx>40</posx>
+        <posy>230</posy>
+        <width>580</width>
+        <height>2</height>
+        <texturebg />
+        <lefttexture />
+        <midtexture>tvguide-white-progress.png</midtexture>
+        <righttexture />
+      </control>
+      <control type="label" id="2001">
+        <description>waiting time left</description>
+        <posx>650</posx>
+        <posy>207</posy>
+        <width>100</width>
+        <height>50</height>
+        <label></label>
+        <textcolor>ffffffff</textcolor>
+        <font>font13</font>
+        <aligny>center</aligny>
+      </control>
+
+      <control type="button" id="1"><!-- Watch Stream -->
+        <posx>175</posx>
+        <posy>275</posy>
+        <width>200</width>
+        <height>50</height>
+        <label>Yes</label>
+        <texturefocus>menu-grey-focus.png</texturefocus>
+        <texturenofocus>menu-grey.png</texturenofocus>
+        <onright>2</onright>
+        <align>center</align>
+        <aligny>center</aligny>
+        <font>font13</font>
+        <textcolor>ffffffff</textcolor>
+      </control>
+      <control type="button" id="2"><!-- Close dialog -->
+        <posx>425</posx>
+        <posy>275</posy>
+        <width>200</width>
+        <height>50</height>
+        <label>No</label>
+        <texturefocus>menu-grey-focus.png</texturefocus>
+        <texturenofocus>menu-grey.png</texturenofocus>
+        <onleft>1</onleft>
+        <align>center</align>
+        <aligny>center</aligny>
+        <font>font13</font>
+        <textcolor>ffffffff</textcolor>
+      </control>
+  </controls>
+</window>

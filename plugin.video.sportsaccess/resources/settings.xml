@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+	<category label="General">
+		<setting label="SportsAccess Account" type="lsep" />
+		<setting id="defaultServerHost" type="text" label="SportsAccess Username" default="usa.01.cdnstreams.in" visible="false"/>
+		<setting id="defaultServerPort" type="text" label="SportsAccess Username" default="6034" visible="false"/>
+		<setting id="defaultServerName" type="text" label="SportsAccess Username" default="East USA" visible="false"/>
+		<setting id="skyusername" type="text" label="SportsAccess Username" default="" visible="true"/>
+		<setting id="skypassword" type="text" label="SportsAccess Password" default="" visible="true" option="hidden" />
+		<setting id="server-location" type="bool" label="[B]Server Location[/B]" default="true" visible="false"/>
+        <setting label="Autostart" type="lsep" />
+        <setting id="autostart" label="Autostart SportsAccess with Kodi" type="bool" default="false" />
+    </category>
+	<category label="EPG-Settings">
+		<setting id="background.stream" label="30450" type="bool" default="true" visible="false" />
+        <setting id="enable.osd" label="30118" type="bool" default="false" visible="false" />
+		<setting id="alternative.playback" label="30120" type="bool" default="true" visible="false" />
+		<setting label="Notifications" type="lsep" />
+		<setting id="notifications.enabled" label="30106" type="bool" default="true" />
+		<setting label="30108" type="action" action="RunScript($CWD/notification.py)" />
+		<setting type="lsep" label="30137"/>
+		<setting type="lsep" label="30138"/>
+        <setting label="30139" type="action" action="RunScript($CWD/ResetDatabase.py)" />
+    </category>
+</settings>

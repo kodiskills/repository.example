@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window type="dialog">
+    <allowoverlay>no</allowoverlay>
+    <defaultcontrol always="true">4000</defaultcontrol>
+    <coordinates>
+        <system>1</system>
+        <posx>0</posx>
+        <posy>0</posy>
+    </coordinates>
+    <controls>
+        <control type="label" id="6001">
+            <description>visibility marker for selection box</description>
+        </control>
+
+        <control type="image">
+            <posx>0</posx>
+            <posy>0</posy>
+            <width>1280</width>
+            <height>720</height>
+            <texture>menu-scoreboard.png</texture>
+        </control>
+        <control type="image">
+            <posx>0</posx>
+            <posy>0</posy>
+            <width>1280</width>
+            <height>720</height>
+            <texture>menu-scoreboard.png</texture>
+        </control>
+
+        <control type="image">
+            <posx>100</posx>
+            <posy>30</posy>
+            <width>500</width>
+            <height>50</height>
+            <texture>banner-scoreboard.png</texture>
+        </control>
+
+        <control type="button" id="4000">
+            <posx>250</posx>
+            <posy>95</posy>
+            <width>150</width>
+            <height>40</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <label>MLB</label>
+            <texturefocus>menu-grey-focus.png</texturefocus>
+            <texturenofocus>menu-grey.png</texturenofocus>
+            <onleft>4004</onleft>
+            <onright>4001</onright>
+        </control>
+        <control type="button" id="4001">
+            <posx>400</posx>
+            <posy>95</posy>
+            <width>150</width>
+            <height>40</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <label>NBA</label>
+            <texturefocus>menu-grey-focus.png</texturefocus>
+            <texturenofocus>menu-grey.png</texturenofocus>
+            <onleft>4000</onleft>
+            <onright>4002</onright>
+        </control>
+        <control type="button" id="4002">
+            <posx>550</posx>
+            <posy>95</posy>
+            <width>150</width>
+            <height>40</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <label>NFL</label>
+            <texturefocus>menu-grey-focus.png</texturefocus>
+            <texturenofocus>menu-grey.png</texturenofocus>
+            <onleft>4001</onleft>
+            <onright>4003</onright>
+        </control>
+        <control type="button" id="4003">
+            <posx>700</posx>
+            <posy>95</posy>
+            <width>150</width>
+            <height>40</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <label>NHL</label>
+            <texturefocus>menu-grey-focus.png</texturefocus>
+            <texturenofocus>menu-grey.png</texturenofocus>
+            <onleft>4002</onleft>
+            <onright>4004</onright>
+        </control>
+        <control type="button" id="4004">
+            <posx>850</posx>
+            <posy>95</posy>
+            <width>150</width>
+            <height>40</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <label>EPL</label>
+            <texturefocus>menu-grey-focus.png</texturefocus>
+            <texturenofocus>menu-grey.png</texturenofocus>
+            <onleft>4003</onleft>
+            <onright>4000</onright>
+        </control>
+
+        <!-- Shadow buttons to show as placeholders !-->
+        <control type="button" id="4010">
+            <posx>250</posx>
+            <posy>95</posy>
+            <width>150</width>
+            <height>40</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <label>MLB</label>
+            <texturenofocus>tvguide-program-grey-focus.png</texturenofocus>
+        </control>
+        <control type="button" id="4011">
+            <posx>400</posx>
+            <posy>95</posy>
+            <width>150</width>
+            <height>40</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <label>NBA</label>
+            <texturenofocus>tvguide-program-grey-focus.png</texturenofocus>
+        </control>
+        <control type="button" id="4012">
+            <posx>550</posx>
+            <posy>95</posy>
+            <width>150</width>
+            <height>40</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <label>NFL</label>
+            <texturenofocus>tvguide-program-grey-focus.png</texturenofocus>
+        </control>
+        <control type="button" id="4013">
+            <posx>700</posx>
+            <posy>95</posy>
+            <width>150</width>
+            <height>40</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <label>NHL</label>
+            <texturenofocus>tvguide-program-grey-focus.png</texturenofocus>
+        </control>
+        <control type="button" id="4014">
+            <posx>850</posx>
+            <posy>95</posy>
+            <width>150</width>
+            <height>40</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <label>EPL</label>
+            <texturenofocus>tvguide-program-grey-focus.png</texturenofocus>
+        </control>
+
+        <control type="label" id="7000">
+            <posx>550</posx>
+            <posy>250</posy>
+            <width>250</width>
+            <height>100</height>
+            <aligny>center</aligny>
+            <font>font14</font>
+            <textcolor>ffffffff</textcolor>
+            <info>ListItem.Label</info>
+            <label>No games today</label>
+        </control>
+        <control type="label" id="7500">
+            <posx>550</posx>
+            <posy>250</posy>
+            <width>250</width>
+            <height>100</height>
+            <aligny>center</aligny>
+            <font>font14</font>
+            <textcolor>ffffffff</textcolor>
+            <info>ListItem.Label</info>
+            <label>Loading...</label>
+        </control>
+
+        <control type="button" id="6005">
+            <posx>100</posx>
+            <posy>647</posy>
+            <width>200</width>
+            <height>40</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <label>Refresh</label>
+            <texturefocus>menu-grey-focus.png</texturefocus>
+            <texturenofocus>menu-grey.png</texturenofocus>
+            <onright>6004</onright>
+            <onleft>6004</onleft>
+        </control>
+
+        <control type="button" id="6004">
+            <posx>1000</posx>
+            <posy>647</posy>
+            <width>200</width>
+            <height>40</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <font>font13</font>
+            <textcolor>ffffffff</textcolor>
+            <label>Close</label>
+            <texturefocus>menu-grey-focus.png</texturefocus>
+            <texturenofocus>menu-grey.png</texturenofocus>
+            <onright>6005</onright>
+            <onleft>6005</onleft>
+        </control>
+
+    </controls>
+</window>
